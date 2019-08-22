@@ -23,9 +23,10 @@ There are two environments that you need to set up to be able to get this runnin
 #### Install and run Django
 
 ```
-cd back
 virtualenv .env
+source .env/bin/active
 pip install -r requirements.txt
+cd back
 python manage.py migrate
 python manage.py loaddata adverts/fixtures/instruments.json
 python manage.py createsuperuser
