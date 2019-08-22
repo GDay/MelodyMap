@@ -1,11 +1,12 @@
-
 asn1crypto==0.24.0
 certifi==2019.6.16
 cffi==1.12.3
 chardet==3.0.4
 cleo==0.6.8
 cryptography==2.7
-Django==2.2.1
+Django==2.2.4
+django-environ==0.4.5
+djangorestframework==3.10.2
 gunicorn==19.9.0
 idna==2.8
 pastel==0.1.1
