@@ -1,1 +1,1 @@
-web: gunicorn back/back.wsgi
+web: gunicorn --chdir back back.wsgi
