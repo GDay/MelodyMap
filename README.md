@@ -42,8 +42,6 @@ npm install
 npm run dev
 ```
 
-A quick note about hCaptcha. hCaptcha will not work under `localhost`. You will have to point a domain to `127.0.0.1` to make it work. [Read more about this](https://hcaptcha.com/docs#localdev). 
-
 ## Deployment
 
 There are many ways to deploy this on your own system. Heroku is probably the easiest way to get it live. The master branch on this repo is connected to an Heroku project and will be deployed automatically through continous integration. Therefore, the master branch will always be the same as what is running on the server.

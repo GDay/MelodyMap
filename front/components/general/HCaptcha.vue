@@ -46,7 +46,7 @@ export default {
       window.hcaptcha.reset()
     },
     renderCaptcha () {
-      window.hcaptcha.render('captcha', { sitekey: process.env.HCAPTCHA_SITEKEY || '10000000-ffff-ffff-ffff-000000000001', callback: this.updateToken })
+      window.hcaptcha.render('captcha', { sitekey: process.env.hCaptcha, callback: this.updateToken })
     }
   }
 }

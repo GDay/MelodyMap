@@ -74,6 +74,10 @@ export default {
     baseURL: process.env.BASE_URL || 'http://localhost:8000',
     credentials: true
   },
+
+  env: {
+    hCaptcha: process.env.HCAPTCHA_SITEKEY || '10000000-ffff-ffff-ffff-000000000001'
+  },
   /*
   ** vuetify module configuration
   ** https://github.com/nuxt-community/vuetify-module
