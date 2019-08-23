@@ -1,10 +1,10 @@
 # MelodyMap
 
-MelodyMap is an online map where you can find musicians that are looking to join a band and visa versa. Through MelodyMap, musicians can easily connect with other musicians that live near them.
+MelodyMap is an online map where you can find musicians that are looking to join a band and vice versa. Through MelodyMap, musicians can easily connect with other musicians that live near them.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get this running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
@@ -48,19 +48,15 @@ A quick note about hCaptcha. hCaptcha will not work under `localhost`. You will 
 
 There are many ways to deploy this on your own system. Heroku is probably the easiest way to get it live. The master branch on this repo is connected to an Heroku project and will be deployed automatically through continous integration. Therefore, the master branch will always be the same as what is running on the server.
 
-If you want to get it running on Heroku as well, then you will only have to fill in the environment variables and connect the repo to a new Heroku project.
+If you want to get it running on Heroku, then you will only have to fill in the environment variables and connect the repo to a new Heroku project.
 
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See the list of [contributors](https://github.com/your/project/contributors).
 
 ## License
 
