@@ -4,7 +4,7 @@ export const state = () => ({
   snackbar: false,
   loginModalOpen: false,
   signupModalOpen: false,
-  center: [0, 0],
+  center: [34.405472, -103.2050709],
   zoom: 3
 })
 

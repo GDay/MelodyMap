@@ -46,7 +46,6 @@ export default {
       url: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
       zoom: 3,
       loading: false,
-      center: [47.413220, -1.219482],
       modalOpen: true,
       addModalOpen: false,
       detailModalOpen: false,
