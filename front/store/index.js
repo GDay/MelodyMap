@@ -4,7 +4,7 @@ export const state = () => ({
   snackbar: false,
   loginModalOpen: false,
   signupModalOpen: false,
-  center: [47.413220, -1.219482],
+  center: [0, 0],
   zoom: 3
 })
 
@@ -27,7 +27,7 @@ export const mutations = {
   },
   changePlace (state, place) {
     state.center = [place.lat, place.lon]
-    state.zoom = 11
+    state.zoom = 13
   }
 }
 

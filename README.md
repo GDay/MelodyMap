@@ -54,7 +54,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-See the list of [contributors](https://github.com/your/project/contributors).
+See the list of [contributors](https://github.com/GDay/MelodyMap/graphs/contributors).
 
 ## License
 

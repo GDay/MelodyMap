@@ -52,6 +52,9 @@ export default {
       item: {}
     }
   },
+  mounted () {
+    this.$store.commit('changePlace', { lat: 34.41, lon: -103.20 })
+  },
   methods: {
     logout () {
       this.$auth.logout()
