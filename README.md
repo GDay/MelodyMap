@@ -28,8 +28,8 @@ source .env/bin/active
 pip install -r requirements.txt
 cd back
 python manage.py migrate
-python manage.py loaddata adverts/fixtures/instruments.json
 python manage.py createsuperuser
+python manage.py loaddata adverts/fixtures/instruments.json adverts/fixtures/adverts.json
 ENV_PATH=back/.env.example python manage.py runserver
 ```
 Alternatively, you can rename `.env.example` to `.env` and then you can remove the `ENV_PATH=back/.env.example` in the last command.
