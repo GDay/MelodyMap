@@ -5,7 +5,7 @@ export const state = () => ({
   loginModalOpen: false,
   signupModalOpen: false,
   center: [34.405472, -103.2050709],
-  zoom: 3
+  zoom: 13
 })
 
 export const mutations = {

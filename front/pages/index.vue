@@ -59,6 +59,7 @@ export default {
     this.$adverts.getInstruments().then((data) => {
       this.instruments = data
     })
+    this.$store.commit('setZoom', 14)
   },
   methods: {
     boundsUpdated (bounds) {
@@ -70,7 +71,6 @@ export default {
       })
     },
     openItem (item) {
-      console.log(item)
       this.item = item
       this.detailModalOpen = true
     },
